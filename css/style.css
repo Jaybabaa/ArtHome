@@ -1,0 +1,227 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.div-img img {
+    width: 100%;
+    height: 200px;
+}
+
+.div-img {
+    box-shadow: 4px 5px 3px gray;
+}
+
+#email {
+    width: 30%;
+}
+
+.div-subscribe {
+    background-color: #2a9d8f;
+}
+
+.div-services{
+    background-color: #83c5be;
+}
+
+.div-imgg img{
+    width: 100%;
+    height: 300px;
+}
+
+.div-imgg {
+    box-shadow: 4px 5px 3px #ef476f;
+}
+
+.div-how {
+    background-color: #5a8fcf;
+}
+
+.div-we {
+    background-image: url(../images/space.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+}
+
+.div-we h1{
+    font-size: 40px !important;
+}
+
+.div-our {
+    padding-left: 200px !important;
+}
+
+.div-our h1 {
+    font-size: 60px !important;
+}
+
+.div-our p {
+    font-size: 40px !important;
+}
+
+.div-contact {
+    background-image: url(../images/client.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+}
+
+.div-get {
+    background-color: #e5e5e5;
+}
+
+@media(min-width: 1440px) {
+    .div-rose .m-5 p {
+        font-size: 35px !important;
+    }
+}
+@media(min-width:2560px) {
+   .div-enquiry {
+       font-size: 40px !important;
+   }
+}
+
+@media (max-width:2560px) {
+    .navbar {
+        margin: 0;
+        width: 100% !important;
+    }
+    
+}
+
+@media (max-width:1024px) {
+    .div-we {
+        background-size: cover;
+        height: 450px !important;
+    }
+    .div-contact {
+        background-size: contain;
+        height: 450px !important;
+    }
+   
+}
+
+@media (max-width:768px) {
+    .div-we {
+        background-size: contain;
+    }
+    .div-our {
+        padding-left: 100px !important;
+    }
+    .div-img {
+        margin: 0.5rem !important;
+        width: 50vh !important;
+    }
+    .p-5 {
+        padding: 5px !important;
+    }
+    .div-img img {
+        width: 90% !important;
+    }
+    .div-founder {
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-work h2 {
+        font-size: 20px !important;
+    }
+    .div-contact {
+        background-size: contain;
+        height: 340px !important;
+    }
+    .div-rose .m-5 {
+        margin: 10px !important;
+    }
+    .div-in {
+        padding: 50px !important;
+    }
+}
+
+@media (max-width:425px) {
+    body {
+        min-width: fit-content;
+    }
+    .navbar {
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .div-contact {
+        background-size: contain;
+        
+    }
+    .div-gallery {
+        flex-direction: column;
+    }
+    .div-we {
+        background-size: cover;
+        background-position: inherit;
+        height: 450px !important;
+    }
+    .div-founder {
+        flex-direction: column;
+    }
+    .div-img img {
+        width: 200px !important;
+    }
+    .p-5 p {
+        padding: 0 !important;
+        margin-block-start: 0 !important;
+        margin-block-end: 0 !important;
+    }
+
+    .div-our p {
+        font-size: 25px !important;
+        padding-bottom: 5px !important;
+    }
+    .div-work h2 {
+        font-size: 10px !important;
+        padding: 5px !important;
+        margin: 2px !important;
+    }
+    .div-ipsum {
+        padding-top: 60px !important;
+    }
+    .div-graphics {
+        flex-direction: column;
+    }
+    .div-imgg img{
+        width: 100%;
+        height: 150px;
+    }
+
+    .div-rose {
+        flex-direction: column;
+    }
+    .div-contact {
+        background-size: contain;
+        height: 250px !important;
+    }
+}
+
+@media (max-width:375px) {
+    .div-our p {
+        font-size: 15px !important;
+    }
+    .div-our h1 {
+        font-size: 25px !important;
+    }
+    .div-contact {
+        background-size: contain;
+        height: 255px !important;
+    }
+    .div-enquiry .div-form input[type='email'] {
+        margin-left: 3px !important;
+    }
+    .div-enquiry .div-form textarea {
+        width: 95% !important;
+    }
+}
+
+@media (max-width:320px) {
+    .div-contact {
+        background-size: contain;
+        height: 149px !important;
+    }
+}
